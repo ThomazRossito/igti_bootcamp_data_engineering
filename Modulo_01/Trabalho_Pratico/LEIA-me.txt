@@ -1,0 +1,3 @@
+O arquivo -> 01-Extract_Transform_Memory.ipynb
+
+Foi criado para pessoas que tem um equipamento com pouca memória
