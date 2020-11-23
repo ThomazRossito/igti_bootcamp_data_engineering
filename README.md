@@ -11,6 +11,11 @@ Modulo 02: Fundamentos
 
 Módulo 03: Armazenamento de Dados
 
-Módulo 04: Ecossistema Hadoop
+Módulo 04: Solução de dados utilizando o Ecossistema Hadoop
 
-Módulo 05: Infraestrutura e Arquitetura
+Módulo 05: Infraestrutura de dados e arquitetura escalável
+
+#### Desafio Final
+
+
+
