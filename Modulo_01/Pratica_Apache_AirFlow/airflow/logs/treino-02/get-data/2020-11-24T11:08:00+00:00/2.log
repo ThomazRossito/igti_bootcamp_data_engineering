@@ -1,0 +1,33 @@
+[2020-11-24 11:47:43,371] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.get-data 2020-11-24T11:08:00+00:00 [queued]>
+[2020-11-24 11:47:43,377] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.get-data 2020-11-24T11:08:00+00:00 [queued]>
+[2020-11-24 11:47:43,377] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 11:47:43,377] {taskinstance.py:881} INFO - Starting attempt 2 of 2
+[2020-11-24 11:47:43,377] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 11:47:43,387] {taskinstance.py:901} INFO - Executing <Task(BashOperator): get-data> on 2020-11-24T11:08:00+00:00
+[2020-11-24 11:47:43,389] {standard_task_runner.py:54} INFO - Started process 78482 to run task
+[2020-11-24 11:47:43,407] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'treino-02', 'get-data', '2020-11-24T11:08:00+00:00', '--job_id', '38', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/treino02.py', '--cfg_path', '/tmp/tmp3yb3r53n']
+[2020-11-24 11:47:43,407] {standard_task_runner.py:78} INFO - Job 38: Subtask get-data
+[2020-11-24 11:47:43,479] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: treino-02.get-data 2020-11-24T11:08:00+00:00 [running]> gaming
+[2020-11-24 11:47:43,492] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /tmp
+[2020-11-24 11:47:43,492] {bash_operator.py:134} INFO - Temporary script location: /tmp/airflowtmp8vrfdmrt/get-dataccffjy35
+[2020-11-24 11:47:43,493] {bash_operator.py:146} INFO - Running command: curl https://raw.githubusercontent.com/A3Data/hermione/master/hermione/file_text/train.csv -o ~/raw/train.csv
+[2020-11-24 11:47:43,500] {bash_operator.py:153} INFO - Output:
+[2020-11-24 11:47:43,503] {bash_operator.py:157} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2020-11-24 11:47:43,503] {bash_operator.py:157} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2020-11-24 11:47:43,694] {bash_operator.py:157} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0Warning: Failed to create the file /home/thomaz/raw/train.csv: No such file or
+[2020-11-24 11:47:43,695] {bash_operator.py:157} INFO - Warning: directory
+[2020-11-24 11:47:43,695] {bash_operator.py:157} INFO -   2 60301    2  1371    0     0   7178      0  0:00:08 --:--:--  0:00:08  7178
+[2020-11-24 11:47:43,699] {bash_operator.py:157} INFO - curl: (23) Failure writing output to destination
+[2020-11-24 11:47:43,701] {bash_operator.py:159} INFO - Command exited with return code 23
+[2020-11-24 11:47:43,717] {taskinstance.py:1150} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 984, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/airflow/operators/bash_operator.py", line 165, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-11-24 11:47:43,720] {taskinstance.py:1187} INFO - Marking task as FAILED. dag_id=treino-02, task_id=get-data, execution_date=20201124T110800, start_date=20201124T144743, end_date=20201124T144743
+[2020-11-24 11:47:48,372] {local_task_job.py:102} INFO - Task exited with return code 1

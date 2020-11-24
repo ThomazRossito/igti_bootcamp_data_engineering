@@ -1,0 +1,16 @@
+[2020-11-24 12:08:35,718] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.mostra-idade 2020-11-24T11:42:00+00:00 [queued]>
+[2020-11-24 12:08:35,726] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.mostra-idade 2020-11-24T11:42:00+00:00 [queued]>
+[2020-11-24 12:08:35,726] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 12:08:35,726] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-24 12:08:35,726] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 12:08:35,736] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): mostra-idade> on 2020-11-24T11:42:00+00:00
+[2020-11-24 12:08:35,738] {standard_task_runner.py:54} INFO - Started process 83975 to run task
+[2020-11-24 12:08:35,805] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'treino-02', 'mostra-idade', '2020-11-24T11:42:00+00:00', '--job_id', '93', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/treino02.py', '--cfg_path', '/tmp/tmpxz22wo8t']
+[2020-11-24 12:08:35,805] {standard_task_runner.py:78} INFO - Job 93: Subtask mostra-idade
+[2020-11-24 12:08:35,822] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: treino-02.mostra-idade 2020-11-24T11:42:00+00:00 [running]> gaming
+[2020-11-24 12:08:35,833] {logging_mixin.py:112} INFO - A idade média no Titanic era 29.69911764705882 anos
+[2020-11-24 12:08:35,833] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-11-24 12:08:35,835] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=treino-02, task_id=mostra-idade, execution_date=20201124T114200, start_date=20201124T150835, end_date=20201124T150835
+[2020-11-24 12:08:40,706] {local_task_job.py:102} INFO - Task exited with return code 0
