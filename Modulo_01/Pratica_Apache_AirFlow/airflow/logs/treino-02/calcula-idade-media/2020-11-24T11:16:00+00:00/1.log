@@ -1,0 +1,37 @@
+[2020-11-24 11:51:33,049] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.calcula-idade-media 2020-11-24T11:16:00+00:00 [queued]>
+[2020-11-24 11:51:33,059] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.calcula-idade-media 2020-11-24T11:16:00+00:00 [queued]>
+[2020-11-24 11:51:33,059] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 11:51:33,059] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-24 11:51:33,059] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 11:51:33,068] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): calcula-idade-media> on 2020-11-24T11:16:00+00:00
+[2020-11-24 11:51:33,070] {standard_task_runner.py:54} INFO - Started process 79507 to run task
+[2020-11-24 11:51:33,146] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'treino-02', 'calcula-idade-media', '2020-11-24T11:16:00+00:00', '--job_id', '49', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/treino02.py', '--cfg_path', '/tmp/tmp9ywel60h']
+[2020-11-24 11:51:33,146] {standard_task_runner.py:78} INFO - Job 49: Subtask calcula-idade-media
+[2020-11-24 11:51:33,164] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: treino-02.calcula-idade-media 2020-11-24T11:16:00+00:00 [running]> gaming
+[2020-11-24 11:51:33,173] {taskinstance.py:1150} ERROR - [Errno 2] No such file or directory: '/home/thomaz/raw/train.csv'
+Traceback (most recent call last):
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 984, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/thomaz/airflow/dags/treino02.py", line 51, in calculate_mean_age
+    df = pd.read_csv('~/raw/train.csv')
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 686, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 452, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 946, in __init__
+    self._make_engine(self.engine)
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 1178, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/thomaz/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 2008, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] No such file or directory: '/home/thomaz/raw/train.csv'
+[2020-11-24 11:51:33,176] {taskinstance.py:1187} INFO - Marking task as UP_FOR_RETRY. dag_id=treino-02, task_id=calcula-idade-media, execution_date=20201124T111600, start_date=20201124T145133, end_date=20201124T145133
+[2020-11-24 11:51:38,045] {local_task_job.py:102} INFO - Task exited with return code 1

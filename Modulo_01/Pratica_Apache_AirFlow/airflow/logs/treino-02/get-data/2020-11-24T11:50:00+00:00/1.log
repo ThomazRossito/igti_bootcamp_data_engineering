@@ -1,0 +1,23 @@
+[2020-11-24 12:10:47,332] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.get-data 2020-11-24T11:50:00+00:00 [queued]>
+[2020-11-24 12:10:47,340] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-02.get-data 2020-11-24T11:50:00+00:00 [queued]>
+[2020-11-24 12:10:47,340] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 12:10:47,341] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-24 12:10:47,341] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 12:10:47,351] {taskinstance.py:901} INFO - Executing <Task(BashOperator): get-data> on 2020-11-24T11:50:00+00:00
+[2020-11-24 12:10:47,353] {standard_task_runner.py:54} INFO - Started process 84570 to run task
+[2020-11-24 12:10:47,377] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'treino-02', 'get-data', '2020-11-24T11:50:00+00:00', '--job_id', '97', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/treino02.py', '--cfg_path', '/tmp/tmpbpnyvnqn']
+[2020-11-24 12:10:47,378] {standard_task_runner.py:78} INFO - Job 97: Subtask get-data
+[2020-11-24 12:10:47,457] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: treino-02.get-data 2020-11-24T11:50:00+00:00 [running]> gaming
+[2020-11-24 12:10:47,470] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /tmp
+[2020-11-24 12:10:47,471] {bash_operator.py:134} INFO - Temporary script location: /tmp/airflowtmpcf_xpwpt/get-datachi8e1sw
+[2020-11-24 12:10:47,471] {bash_operator.py:146} INFO - Running command: curl https://raw.githubusercontent.com/A3Data/hermione/master/hermione/file_text/train.csv -o ~/airflow/raw/train.csv
+[2020-11-24 12:10:47,477] {bash_operator.py:153} INFO - Output:
+[2020-11-24 12:10:47,481] {bash_operator.py:157} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2020-11-24 12:10:47,482] {bash_operator.py:157} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2020-11-24 12:10:47,692] {bash_operator.py:157} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 60301  100 60301    0     0   280k      0 --:--:-- --:--:-- --:--:--  280k
+[2020-11-24 12:10:47,698] {bash_operator.py:159} INFO - Command exited with return code 0
+[2020-11-24 12:10:47,714] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=treino-02, task_id=get-data, execution_date=20201124T115000, start_date=20201124T151047, end_date=20201124T151047
+[2020-11-24 12:10:52,328] {local_task_job.py:102} INFO - Task exited with return code 0
