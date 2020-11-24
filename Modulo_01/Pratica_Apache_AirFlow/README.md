@@ -7,23 +7,25 @@ No terminal para instalar o Apache AirFlow segue abaixo a instrução contida no
 Utilizei para o projeto o sistema operacional `linux Ubuntu 20.04`
 
 
-#### airflow needs a home, ~/airflow is the default,
-#### but you can lay foundation somewhere else if you prefer
-#### (optional)
-export AIRFLOW_HOME=~/airflow
+# Instalação do Apache AirFlow
 
-#### install from pypi using pip
-pip install apache-airflow
+airflow needs a home, ~/airflow is the default,
+but you can lay foundation somewhere else if you prefer
+(optional)
+## export AIRFLOW_HOME=~/airflow
 
-#### initialize the database
-airflow initdb
+install from pypi using pip
+## pip install apache-airflow
 
-#### start the web server, default port is 8080
-airflow webserver -p 8080
+initialize the database
+## airflow initdb
 
-#### start the scheduler
-airflow scheduler
+start the web server, default port is 8080
+## airflow webserver -p 8080
 
-#### visit localhost:8080 in the browser and enable the example dag in the home page
+start the scheduler
+## airflow scheduler
+
+visit localhost:8080 in the browser and enable the example dag in the home page
 
 Fonte: [Apache AirFlow](https://airflow.apache.org/docs/stable/start.html)
