@@ -42,13 +42,13 @@ dag = DAG(
 # comando para efetuar o dowload dos dados 
 get_data = BashOperator(
     task_id='get-data',
-    bash_command='curl https://raw.githubusercontent.com/A3Data/hermione/master/hermione/file_text/train.csv -o ~/airflow/data/train.csv', 
+    bash_command='curl https://raw.githubusercontent.com/A3Data/hermione/master/hermione/file_text/train.csv -o ~/airflow/raw/train.csv', 
     dag=dag
 )
 
 # Função para calcular idade média dos passageiros
 def calculate_mean_age():
-    df = pd.read_csv('~/airflow/data/train.csv') 
+    df = pd.read_csv('~/airflow/raw/train.csv') 
     med = df.Age.mean()
     return med
 

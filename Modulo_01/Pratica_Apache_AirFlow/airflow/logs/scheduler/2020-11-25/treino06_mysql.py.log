@@ -1,0 +1,122 @@
+[2020-11-24 21:26:51,519] {scheduler_job.py:154} INFO - Started process (PID=247264) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:26:51,525] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:26:51,526] {logging_mixin.py:112} INFO - [2020-11-24 21:26:51,525] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:26:51,664] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-05']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:26:51,668] {logging_mixin.py:112} INFO - [2020-11-24 21:26:51,668] {dag.py:1520} INFO - Creating ORM DAG for treino-05
+[2020-11-24 21:26:51,677] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.158 seconds
+[2020-11-24 21:27:53,570] {scheduler_job.py:154} INFO - Started process (PID=247508) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:27:53,573] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:27:53,573] {logging_mixin.py:112} INFO - [2020-11-24 21:27:53,573] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:27:53,707] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-05']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:27:53,722] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.152 seconds
+[2020-11-24 21:28:55,627] {scheduler_job.py:154} INFO - Started process (PID=247765) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:28:55,629] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:28:55,629] {logging_mixin.py:112} INFO - [2020-11-24 21:28:55,629] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:28:55,757] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:28:55,762] {logging_mixin.py:112} INFO - [2020-11-24 21:28:55,761] {dag.py:1520} INFO - Creating ORM DAG for treino-06-MySQL
+[2020-11-24 21:28:55,770] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.143 seconds
+[2020-11-24 21:29:57,694] {scheduler_job.py:154} INFO - Started process (PID=248067) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:29:57,697] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:29:57,697] {logging_mixin.py:112} INFO - [2020-11-24 21:29:57,697] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:29:57,860] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:29:57,877] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.183 seconds
+[2020-11-24 21:30:59,786] {scheduler_job.py:154} INFO - Started process (PID=248338) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:30:59,791] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:30:59,792] {logging_mixin.py:112} INFO - [2020-11-24 21:30:59,791] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:30:59,956] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:30:59,973] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:30:59,975] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:31:00,088] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:31:00,091] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.start_processing 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:31:00,100] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.315 seconds
+[2020-11-24 21:32:07,222] {scheduler_job.py:154} INFO - Started process (PID=248630) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:32:07,225] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:32:07,225] {logging_mixin.py:112} INFO - [2020-11-24 21:32:07,225] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:32:07,403] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:32:07,427] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:32:07,430] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:32:07,551] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:32:07,555] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.get-data 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:32:07,563] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.341 seconds
+[2020-11-24 21:33:39,949] {scheduler_job.py:154} INFO - Started process (PID=249017) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:33:39,951] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:33:39,952] {logging_mixin.py:112} INFO - [2020-11-24 21:33:39,952] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:33:40,121] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:33:40,142] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:33:40,145] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:33:40,263] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:33:40,266] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.unzip_data 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:33:40,275] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.325 seconds
+[2020-11-24 21:34:47,545] {scheduler_job.py:154} INFO - Started process (PID=249237) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:34:47,549] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:34:47,550] {logging_mixin.py:112} INFO - [2020-11-24 21:34:47,549] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:34:47,711] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:34:47,731] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:34:47,790] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:34:47,846] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:34:47,849] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.aplica_filtro 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:34:47,858] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.313 seconds
+[2020-11-24 21:35:55,087] {scheduler_job.py:154} INFO - Started process (PID=249553) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:35:55,092] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:35:55,093] {logging_mixin.py:112} INFO - [2020-11-24 21:35:55,092] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:35:55,259] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:35:55,329] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:35:55,331] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:35:55,383] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:35:55,385] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_idade_centralizada 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:35:55,387] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_est_civil 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:35:55,391] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_cor_da_pele 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:35:55,394] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_escopai 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:35:55,396] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_escomae 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:35:55,399] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_renda 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:35:55,407] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.321 seconds
+[2020-11-24 21:37:35,263] {scheduler_job.py:154} INFO - Started process (PID=249993) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:37:35,266] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:37:35,267] {logging_mixin.py:112} INFO - [2020-11-24 21:37:35,267] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:37:35,401] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:37:35,463] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:37:35,466] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:37:35,488] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:37:35,491] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.constroi_idade_ao_quadrado 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:37:35,499] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.236 seconds
+[2020-11-24 21:38:42,539] {scheduler_job.py:154} INFO - Started process (PID=250300) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:38:42,543] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:38:42,544] {logging_mixin.py:112} INFO - [2020-11-24 21:38:42,544] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:38:42,687] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:38:42,750] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:38:42,752] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:38:42,771] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:38:42,773] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.join_data 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:38:42,780] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.240 seconds
+[2020-11-24 21:39:49,946] {scheduler_job.py:154} INFO - Started process (PID=250662) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:39:49,951] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:39:49,952] {logging_mixin.py:112} INFO - [2020-11-24 21:39:49,951] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:39:50,094] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:39:50,155] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:39:50,157] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:39:50,172] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:39:50,174] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: treino-06-MySQL.escreve_dw 2020-11-25 00:30:29.657679+00:00 [scheduled]> in ORM
+[2020-11-24 21:39:50,182] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.236 seconds
+[2020-11-24 21:41:12,303] {scheduler_job.py:154} INFO - Started process (PID=251026) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:41:12,306] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:41:12,306] {logging_mixin.py:112} INFO - [2020-11-24 21:41:12,306] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:41:12,452] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:41:12,515] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:41:12,517] {scheduler_job.py:771} INFO - Examining DAG run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True>
+[2020-11-24 21:41:12,523] {logging_mixin.py:112} INFO - [2020-11-24 21:41:12,523] {dagrun.py:320} INFO - Marking run <DagRun treino-06-MySQL @ 2020-11-25 00:30:29.657679+00:00: manual__2020-11-25T00:30:29.657679+00:00, externally triggered: True> successful
+[2020-11-24 21:41:12,531] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:41:12,534] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.231 seconds
+[2020-11-24 21:42:14,369] {scheduler_job.py:154} INFO - Started process (PID=251264) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:42:14,371] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:42:14,372] {logging_mixin.py:112} INFO - [2020-11-24 21:42:14,371] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:42:14,522] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:42:14,587] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:42:14,590] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:42:14,592] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.223 seconds
+[2020-11-24 21:43:16,449] {scheduler_job.py:154} INFO - Started process (PID=251503) to work on /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:43:16,454] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino06_mysql.py for tasks to queue
+[2020-11-24 21:43:16,455] {logging_mixin.py:112} INFO - [2020-11-24 21:43:16,455] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:43:16,608] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-06-MySQL']) retrieved from /home/thomaz/airflow/dags/treino06_mysql.py
+[2020-11-24 21:43:16,666] {scheduler_job.py:1305} INFO - Processing treino-06-MySQL
+[2020-11-24 21:43:16,668] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: treino-06-MySQL> because no tasks in DAG have SLAs
+[2020-11-24 21:43:16,670] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino06_mysql.py took 0.221 seconds

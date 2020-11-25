@@ -1,0 +1,16 @@
+[2020-11-24 21:34:50,738] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-06-MySQL.aplica_filtro 2020-11-25T00:30:29.657679+00:00 [queued]>
+[2020-11-24 21:34:50,751] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-06-MySQL.aplica_filtro 2020-11-25T00:30:29.657679+00:00 [queued]>
+[2020-11-24 21:34:50,751] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 21:34:50,751] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-11-24 21:34:50,751] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 21:34:50,760] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): aplica_filtro> on 2020-11-25T00:30:29.657679+00:00
+[2020-11-24 21:34:50,762] {standard_task_runner.py:54} INFO - Started process 249242 to run task
+[2020-11-24 21:34:50,842] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'treino-06-MySQL', 'aplica_filtro', '2020-11-25T00:30:29.657679+00:00', '--job_id', '104', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/treino06_mysql.py', '--cfg_path', '/tmp/tmp2apbp17c']
+[2020-11-24 21:34:50,842] {standard_task_runner.py:78} INFO - Job 104: Subtask aplica_filtro
+[2020-11-24 21:34:50,856] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: treino-06-MySQL.aplica_filtro 2020-11-25T00:30:29.657679+00:00 [running]> gaming
+[2020-11-24 21:34:52,176] {utils.py:141} INFO - NumExpr defaulting to 8 threads.
+[2020-11-24 21:34:53,691] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-11-24 21:34:53,694] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=treino-06-MySQL, task_id=aplica_filtro, execution_date=20201125T003029, start_date=20201125T003450, end_date=20201125T003453
+[2020-11-24 21:34:55,742] {local_task_job.py:102} INFO - Task exited with return code 0

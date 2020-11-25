@@ -1,0 +1,16 @@
+[2020-11-24 21:35:58,468] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-06-MySQL.constroi_idade_centralizada 2020-11-25T00:30:29.657679+00:00 [queued]>
+[2020-11-24 21:35:58,482] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: treino-06-MySQL.constroi_idade_centralizada 2020-11-25T00:30:29.657679+00:00 [queued]>
+[2020-11-24 21:35:58,482] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 21:35:58,482] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-11-24 21:35:58,482] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-24 21:35:58,491] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): constroi_idade_centralizada> on 2020-11-25T00:30:29.657679+00:00
+[2020-11-24 21:35:58,494] {standard_task_runner.py:54} INFO - Started process 249574 to run task
+[2020-11-24 21:35:58,585] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'treino-06-MySQL', 'constroi_idade_centralizada', '2020-11-25T00:30:29.657679+00:00', '--job_id', '105', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/treino06_mysql.py', '--cfg_path', '/tmp/tmpf6ub8hwc']
+[2020-11-24 21:35:58,586] {standard_task_runner.py:78} INFO - Job 105: Subtask constroi_idade_centralizada
+[2020-11-24 21:35:58,603] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: treino-06-MySQL.constroi_idade_centralizada 2020-11-25T00:30:29.657679+00:00 [running]> gaming
+[2020-11-24 21:35:58,853] {utils.py:141} INFO - NumExpr defaulting to 8 threads.
+[2020-11-24 21:35:59,648] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-11-24 21:35:59,650] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=treino-06-MySQL, task_id=constroi_idade_centralizada, execution_date=20201125T003029, start_date=20201125T003558, end_date=20201125T003559
+[2020-11-24 21:36:03,471] {local_task_job.py:102} INFO - Task exited with return code 0

@@ -1,0 +1,75 @@
+[2020-11-24 21:26:43,486] {scheduler_job.py:154} INFO - Started process (PID=247199) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:26:43,487] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:26:43,488] {logging_mixin.py:112} INFO - [2020-11-24 21:26:43,488] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:26:43,617] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:26:43,631] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.146 seconds
+[2020-11-24 21:27:45,559] {scheduler_job.py:154} INFO - Started process (PID=247468) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:27:45,560] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:27:45,561] {logging_mixin.py:112} INFO - [2020-11-24 21:27:45,561] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:27:45,693] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:27:45,708] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.149 seconds
+[2020-11-24 21:28:47,627] {scheduler_job.py:154} INFO - Started process (PID=247730) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:28:47,632] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:28:47,633] {logging_mixin.py:112} INFO - [2020-11-24 21:28:47,633] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:28:47,774] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:28:47,789] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.162 seconds
+[2020-11-24 21:29:49,692] {scheduler_job.py:154} INFO - Started process (PID=247994) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:29:49,697] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:29:49,698] {logging_mixin.py:112} INFO - [2020-11-24 21:29:49,698] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:29:49,874] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:29:49,890] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.198 seconds
+[2020-11-24 21:30:51,752] {scheduler_job.py:154} INFO - Started process (PID=248305) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:30:51,754] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:30:51,754] {logging_mixin.py:112} INFO - [2020-11-24 21:30:51,754] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:30:51,881] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:30:51,896] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.144 seconds
+[2020-11-24 21:31:59,222] {scheduler_job.py:154} INFO - Started process (PID=248600) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:31:59,228] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:31:59,229] {logging_mixin.py:112} INFO - [2020-11-24 21:31:59,229] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:31:59,441] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:31:59,459] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.238 seconds
+[2020-11-24 21:33:31,936] {scheduler_job.py:154} INFO - Started process (PID=248975) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:33:31,939] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:33:31,940] {logging_mixin.py:112} INFO - [2020-11-24 21:33:31,939] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:33:32,124] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:33:32,143] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.207 seconds
+[2020-11-24 21:34:39,516] {scheduler_job.py:154} INFO - Started process (PID=249201) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:34:39,520] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:34:39,520] {logging_mixin.py:112} INFO - [2020-11-24 21:34:39,520] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:34:39,687] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:34:39,707] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.191 seconds
+[2020-11-24 21:35:47,056] {scheduler_job.py:154} INFO - Started process (PID=249516) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:35:47,063] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:35:47,064] {logging_mixin.py:112} INFO - [2020-11-24 21:35:47,063] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:35:47,231] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:35:47,250] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.194 seconds
+[2020-11-24 21:37:27,246] {scheduler_job.py:154} INFO - Started process (PID=249953) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:37:27,251] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:37:27,252] {logging_mixin.py:112} INFO - [2020-11-24 21:37:27,252] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:37:27,404] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:37:27,421] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.175 seconds
+[2020-11-24 21:38:34,512] {scheduler_job.py:154} INFO - Started process (PID=250267) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:38:34,518] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:38:34,518] {logging_mixin.py:112} INFO - [2020-11-24 21:38:34,518] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:38:34,677] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:38:34,694] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.183 seconds
+[2020-11-24 21:39:41,910] {scheduler_job.py:154} INFO - Started process (PID=250625) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:39:41,913] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:39:41,913] {logging_mixin.py:112} INFO - [2020-11-24 21:39:41,913] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:39:42,050] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:39:42,113] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.203 seconds
+[2020-11-24 21:41:04,302] {scheduler_job.py:154} INFO - Started process (PID=250992) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:41:04,304] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:41:04,304] {logging_mixin.py:112} INFO - [2020-11-24 21:41:04,304] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:41:04,428] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:41:04,485] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.183 seconds
+[2020-11-24 21:42:06,366] {scheduler_job.py:154} INFO - Started process (PID=251229) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:42:06,367] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:42:06,368] {logging_mixin.py:112} INFO - [2020-11-24 21:42:06,368] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:42:06,500] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:42:06,560] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.194 seconds
+[2020-11-24 21:43:08,433] {scheduler_job.py:154} INFO - Started process (PID=251462) to work on /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:43:08,437] {scheduler_job.py:1589} INFO - Processing file /home/thomaz/airflow/dags/treino02.py for tasks to queue
+[2020-11-24 21:43:08,438] {logging_mixin.py:112} INFO - [2020-11-24 21:43:08,437] {dagbag.py:417} INFO - Filling up the DagBag from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:43:08,600] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['treino-02']) retrieved from /home/thomaz/airflow/dags/treino02.py
+[2020-11-24 21:43:08,658] {scheduler_job.py:162} INFO - Processing /home/thomaz/airflow/dags/treino02.py took 0.225 seconds
