@@ -1,5 +1,4 @@
-## Trabalho Prático do Bootcamp da IGTI
-## Engenharia de Dados
+## Trabalho Prático do Bootcamp de Engenharia de Dados da IGTI
 
 Os arquivos com os nomes citados abaixo, foram desenvolvidos para otimizar o tamanho do arquivo.
 
