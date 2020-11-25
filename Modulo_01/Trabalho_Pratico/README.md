@@ -3,9 +3,9 @@
 
 Os arquivos com os nomes citados abaixo, foram desenvolvidos para otimizar o tamanho do arquivo.
 
-### -> 01-Extract_Transform_Memory.ipynb
-### -> 02-Data_Exploratory_Memory.ipynb
-### -> 03-Load_MySQL_Memory.ipynb
+#### -> 01-Extract_Transform_Memory.ipynb
+#### -> 02-Data_Exploratory_Memory.ipynb
+#### -> 03-Load_MySQL_Memory.ipynb
 
 ## Objetivos
 Exercitar os seguintes conceitos trabalhados no Módulo: -Extração de Dados; -Desenvolvimento de crawlers; -Transformações e análise de dados.
