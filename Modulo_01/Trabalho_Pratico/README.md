@@ -8,7 +8,11 @@ Os arquivos com os nomes citados abaixo, foram desenvolvidos para otimizar o tam
 #### -> 03-Load_MySQL_Memory.ipynb
 
 ## Objetivos
-Exercitar os seguintes conceitos trabalhados no Módulo: -Extração de Dados; -Desenvolvimento de crawlers; -Transformações e análise de dados.
+Exercitar os seguintes conceitos trabalhados no Módulo: 
+
+- Extração de Dados;  
+- Desenvolvimento de crawlers; 
+- Transformações e análise de dados.
 
 ## Enunciado
 Você é uma pessoa da área de Engenheira de Dados em uma empresa de consultoria educacional. Os consultores da empresa vão auxiliar um grupo educacional de ensino médio a desenvolver seu planejamento pedagógico e suas metodologias de ensino. Nesse sentido, eles fizeram a você uma requisição de preparar dados do ENEM para análise. Você deve, portanto, extrair os dados do ENEM, selecionar apenas os alunos de Minas Gerais e apresentar algumas análises que vão ajudar o trabalho dos consultores.
