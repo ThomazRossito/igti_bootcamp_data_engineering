@@ -2,18 +2,6 @@
 
 <br>
 
-> ## Banco de Dados Relacionais
-> Aula 1.1. Introdução a Banco de Dados                                                            
-> Aula 1.2. Banco de Dados Relacionais                                                            
-> Aula 1.3. Introdução a Modelagem de Dados                                                            
-> Aula 1.4. Modelagem de Dados                                                            
-> Aula 1.5. SQL                                                            
-> Aula 1.6. Instalando o BR Modelo                                                            
-> Aula 1.7. Instalando o Ambiente de Estudo                                                             
-> Aula 1.8. Prática no MySql                                                            
-
-<br>
-
 > ## Dados, Fonte de dados, Big Data e Tipos de dados
 
 <br>
