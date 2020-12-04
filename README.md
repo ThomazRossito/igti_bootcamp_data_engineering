@@ -5,9 +5,9 @@
 
 ### Cronograma do BootCamp
 
-Modulo: Introdução
+Módulo: Introdução
 
-Modulo 01: Fundamentos
+Módulo 01: Fundamentos
 
 Módulo 02: Armazenamento de Dados
 
