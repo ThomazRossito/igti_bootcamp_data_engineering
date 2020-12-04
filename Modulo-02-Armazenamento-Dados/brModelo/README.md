@@ -42,14 +42,14 @@
 
 7 - Copie as linhas, que seguem logo abaixo no arquivo aberto e salve:
 
-[Desktop Entry]
-Version=3.2
-Name=brModelo
-Exec=java -jar /opt/brModelo/brModelo.jar
-Icon=/opt/brModelo/brModelo.png
-Type=Application
-Comment=The software for MER
-Path=/opt/brModelo
-Terminal=false
-StartupNotify=true
-Categories=Development;Education; 
+[Desktop Entry]                                                      
+Version=3.2                                                      
+Name=brModelo                                                      
+Exec=java -jar /opt/brModelo/brModelo.jar                                                      
+Icon=/opt/brModelo/brModelo.png                                                      
+Type=Application                                                      
+Comment=The software for MER                                                      
+Path=/opt/brModelo                                                      
+Terminal=false                                                      
+StartupNotify=true                                                      
+Categories=Development;Education;                                                       
