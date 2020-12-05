@@ -1,6 +1,6 @@
 # SQL Power Architect - Data Modeling
 
-<b>Link:</b>[SQL Power Architect](http://www.bestofbi.com/page/architect_download_os)
+<b>Link:</b> [SQL Power Architect](http://www.bestofbi.com/page/architect_download_os)
 
 <br>
 
