@@ -30,7 +30,7 @@ A saída deve imprimir a versão Java.
 
 <br>
 
-1.2 - Instale o pacote apt-transport-https
+1.2 - Instale o pacote <b>`apt-transport-https`</b>
 
 Em seguida, instale o pacote de transporte APT. Você precisa adicionar este pacote ao seu sistema para permitir o acesso aos repositórios usando HTTPS.
 
@@ -90,6 +90,8 @@ Comandos para iniciar, parar, reiniciar
 #### sudo systemctl stop cassandra
 #### sudo systemctl restart cassandra
 
+<br>
+
 Para iniciar o Cassandra automaticamente após a inicialização, use o seguinte comando:
 
 #### sudo systemctl enable cassandra
@@ -106,4 +108,8 @@ Para iniciar um novo shell, abra o terminal e digite:
 
 <br>
 
+<br>
+
+
+<b>Link:</b> [Comandos: Apache Cassandra](https://www.tutorialspoint.com/cassandra/index.htm) 
 <b>Fonte:</b> [Instalação Apache Cassandra Ubuntu](https://phoenixnap.com/kb/install-cassandra-on-ubuntu)
