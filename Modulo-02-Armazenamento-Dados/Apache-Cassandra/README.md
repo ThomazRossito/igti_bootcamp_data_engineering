@@ -113,5 +113,5 @@ Para iniciar um novo shell, abra o terminal e digite:
 <br>
 
 
-<b>Link:</b> [Comandos: Apache Cassandra](https://www.tutorialspoint.com/cassandra/index.htm) 
+<b>Link:</b> [Comandos: Apache Cassandra](https://www.tutorialspoint.com/cassandra/index.htm)                                            
 <b>Fonte:</b> [Instalação Apache Cassandra Ubuntu](https://phoenixnap.com/kb/install-cassandra-on-ubuntu)
