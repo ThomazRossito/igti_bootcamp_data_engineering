@@ -106,6 +106,8 @@ Para iniciar um novo shell, abra o terminal e digite:
 
 ### cqlsh
 
+<img src="https://tho-igti.s3-sa-east-1.amazonaws.com/image_config.png">
+
 <br>
 
 <br>
