@@ -14,15 +14,15 @@ Antes de iniciar a instalação do Cassandra no Ubuntu, certifique-se de instala
 
 O Apache Cassandra precisa do OpenJDK 8 para rodar em um sistema Ubuntu. Atualize seu repositório de pacotes primeiro:
 
-#### sudo apt update
+### sudo apt update
 
 Quando o processo terminar, instale o OpenJDK 8 usando o seguinte comando:
 
-#### sudo apt install openjdk-8-jdk -y
+### sudo apt install openjdk-8-jdk -y
 
 Quando a instalação for concluída, teste se o Java foi instalado com sucesso, verificando a versão do Java :
 
-#### java -version
+### java -version
 
 A saída deve imprimir a versão Java.
 
@@ -36,7 +36,7 @@ Em seguida, instale o pacote de transporte APT. Você precisa adicionar este pac
 
 Digite este comando:
 
-#### sudo apt install apt-transport-https
+### sudo apt install apt-transport-https
 
 A saída deve imprimir um exemplo que destaca as duas etapas finais do processo de instalação do `apt-transport-https`
 
@@ -50,11 +50,11 @@ Você precisa adicionar o repositório Apache Cassandra e extrair a chave GPG an
 
 Digite o comando abaixo para adicionar o repositório Cassandra à lista de fontes:
 
-#### sudo sh -c 'echo "deb http://www.apache.org/dist/cassandra/debian 40x main" > /etc/apt/sources.list.d/cassandra.list'
+### sudo sh -c 'echo "deb http://www.apache.org/dist/cassandra/debian 40x main" > /etc/apt/sources.list.d/cassandra.list'
 
 Em seguida, use o wget comando para extrair a chave pública do URL abaixo:
 
-#### wget -q -O - https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
+### wget -q -O - https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
 
 <br>
 
@@ -64,21 +64,21 @@ Agora você está pronto para instalar o Cassandra no Ubuntu.
 
 Atualize a lista de pacotes do repositório:
 
-#### sudo apt update
+### sudo apt update
 
 Em seguida, execute o comando de instalação:
 
-#### sudo apt install cassandra
+### sudo apt install cassandra
 
 <br>
 
 ## ETAPA 4: Verifique a instalação do Apache Cassandra 
 
-#### nodetool status
+### nodetool status
 
 <img src="https://phoenixnap.com/kb/wp-content/uploads/2020/06/nodetool-cassandra.png">
 
-#### sudo systemctl status cassandra
+### sudo systemctl status cassandra
 
 A saída deve ser exibida `active (running)` em verde.
 
@@ -86,15 +86,15 @@ A saída deve ser exibida `active (running)` em verde.
 
 Comandos para iniciar, parar, reiniciar 
 
-#### sudo systemctl start cassandra
-#### sudo systemctl stop cassandra
-#### sudo systemctl restart cassandra
+### sudo systemctl start cassandra
+### sudo systemctl stop cassandra
+### sudo systemctl restart cassandra
 
 <br>
 
 Para iniciar o Cassandra automaticamente após a inicialização, use o seguinte comando:
 
-#### sudo systemctl enable cassandra
+### sudo systemctl enable cassandra
 
 <br>
 
@@ -104,7 +104,7 @@ O pacote de software Cassandra vem com sua ferramenta de linha de comando (CLI).
 
 Para iniciar um novo shell, abra o terminal e digite:
 
-#### cqlsh
+### cqlsh
 
 <br>
 
