@@ -33,4 +33,4 @@ seguida, praticar alguns comandos no MongoDB.
 
 ## Comandos
 
-- Os comandos se encontram no PDF 
+- Os comandos se encontram no <b>`PDF`</b> ou no arquivo <b>`Comando_TrabalhoPrativo.txt`</b>

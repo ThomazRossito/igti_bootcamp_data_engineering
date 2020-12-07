@@ -1,0 +1,111 @@
+## Digite os comandos conforme instruções abaixo.
+
+-> 1. Acesso ao database aula:
+
+### use aula
+
+
+-> 2. Checagem se há collections no database aula:
+
+### show collections
+
+
+-> 3. Checagem se a collections livros foi carregada:
+
+### db.livros.find().count()
+
+O resultado será um número de títulos. 
+
+Anote esse valor = 431
+
+
+-> 4. Você precisa consultar os livros com a tag isbn menor ou igual a “1000000000”.
+
+Repare que essa tag tem um conteúdo string, e não numérico. O comando abaixo vai retornar a lista de livros. Para facilitar, você pode usar .pretty(). Para facilitar mais ainda, você pode usar .count().
+
+### db.livros.find({isbn:{$lte: "1000000000"}}) 
+
+### db.livros.find({isbn:{$lte: "1000000000"}}).count() 
+
+Anote esse valor = 4
+
+
+-> 5. Agora, vamos consultar os livros com a tag isbn menor ou igual a "1617200000".
+
+### db.livros.find({isbn:{$lte: "1617200000"}}) 
+
+### db.livros.find({isbn:{$lte: "1617200000"}}).count() 
+
+Anote esse valor = 22
+
+
+-> 6. Ainda na consulta dos livros com a tag isbn menor ou igual a "1617200000", recupere
+apenas os nomes dos livros.
+
+Para facilitar, você pode usar o comando pretty() ou, para facilitar ainda mais, use
+algo similar ao comando db.customers.find({ }, {"name":1, "age":1}) e, nesse caso,
+tire o pretty().
+
+Nessa lista retornada anote o título do livro começado com a letra G.
+
+### db.livros.find({isbn:{$lte: "1617200000"}, title: { $regex: /G/ }}, {"title":1, "_id":0})
+
+Nessa lista retornada anote o título do livro começado com a letra G = 
+"title" : "Graphics File Formats"
+
+
+-> 7. Execute o comando abaixo para inserir mais 4 livros
+
+db.livros.insertMany([
+{"title" : "Saci Pererê", "isbn" : "100", "pageCount" : 0, "publishedDate": ISODate("2000-10-01T07:00:00Z"), "status" : "PUBLISH", "authors" : [ ], "categories" : [ ]},
+{"title" : "A Cuca", "isbn" : "99", "pageCount" : 0, "publishedDate": ISODate("2000-10-01T07:00:00Z"), "status" : "PUBLISH", "authors" : [ ], "categories" : [ ]},
+{"title" : "Curupira", "isbn" : "98", "pageCount" : 0, "publishedDate": ISODate("2000-10-01T07:00:00Z"), "status" : "PUBLISH", "authors" : [ ], "categories" : [ ]},
+{"title" : "Jeca Tatu", "isbn" : "97", "pageCount" : 0, "publishedDate": ISODate("2000-10-01T07:00:00Z"), "status" : "PUBLISH", "authors" : [ ], "categories" : [ ]}
+])
+
+
+-> 8. Execute o comando para saber quantos livros tem a chave isbn menor ou igual a
+"100000" ($lte: "100000"). Lembre se de usar o “.count()” para facilitar o resultado.
+
+### db.livros.find({isbn:{$lte: "1000000000"}}).count() 
+
+Anote o valor retornado = 5
+
+
+-> 9. Considere o comando do passo anterior (8) – feito para saber quantos livros tem a chave isbn menor ou igual a  "100000" ($lte: "100000"). Quais são os 2 primeiros livros da lista? Dica: use o comando pretty() e limit().
+
+### db.livros.find({isbn:{$lte: "1000000000"}}, {"title":1, "_id":0}).limit(2) 
+
+Anote o nome dos dois livros retornados = 
+{ "title" : "Comprehensive Networking Glossary and Acronym Guide" }
+{ "title" : "Personal Videoconferencing" }
+
+
+-> 10. O que faz o comando abaixo? Ele mostra quantos livros, e porquê isso?
+
+### db.livros.find({isbn:{$lte: "100000"}}, {"title":1, "_id":0}).pretty().skip(2)
+
+Anote o nome dos livros retornados = 
+{ "title" : "Multimedia Computing" }
+{ "title" : "Implementing SAP R/3, Second Edition" }
+{ "title" : "Saci Pererê" }
+
+
+-> 11. O que faz o comando abaixo? Ele mostra quantos livros, e porquê isso? Observe o que há em comum nos títulos dos livros.
+
+### db.livros.find({title: /Windows/}).count()
+
+Anote o número de livros retornados = 11
+
+
+-> 12. No comando find vamos acrescentar o comando sort descendente (-1) para a chave pageCount.
+
+Utilize o comando limit = 2, pois o que quero saber é quais são os dois menores valores para a chave pageCount.
+
+A dica é usar o find({ }, {"pageCount":1, "_id":0}) para trazer apenas a chave pageCount desejada.
+
+### db.livros.find({ }, {"pageCount":1, "_id":0}).sort({"pageCount": -1}).limit(2)
+
+Anote os dois valores retornados para a chave “pageCount” = 
+{ "pageCount" : 1101 }
+{ "pageCount" : 1096 }
